@@ -22,7 +22,7 @@ int main() {
 	Type* type = TYPEOF(Presion);
 	Object* s = type->CreateObject();
 	if (s!=nullptr&&s->GetType() == TYPEOF(Presion)) {
-		cout << "" << endl;
+		cout << "create ok" << endl;
 		delete s;
 	}
 	getchar();
